@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1D3A4472111B39300F1D8EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D3A4462111B39300F1D8EF /* AppDelegate.swift */; };
+		B1D3A4492111B39300F1D8EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D3A4482111B39300F1D8EF /* ViewController.swift */; };
+		B1D3A44C2111B39300F1D8EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D3A44A2111B39300F1D8EF /* Main.storyboard */; };
+		B1D3A44E2111B39300F1D8EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D3A44D2111B39300F1D8EF /* Assets.xcassets */; };
+		B1D3A4512111B39300F1D8EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D3A44F2111B39300F1D8EF /* LaunchScreen.storyboard */; };
+		B1D3A45C2111B39300F1D8EF /* LikeButtonAnnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D3A45B2111B39300F1D8EF /* LikeButtonAnnimationTests.swift */; };
+		B1D3A4672111B39300F1D8EF /* LikeButtonAnnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D3A4662111B39300F1D8EF /* LikeButtonAnnimationUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1D3A4582111B39300F1D8EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D3A43B2111B39300F1D8EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D3A4422111B39300F1D8EF;
+			remoteInfo = LikeButtonAnnimation;
+		};
+		B1D3A4632111B39300F1D8EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1D3A43B2111B39300F1D8EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D3A4422111B39300F1D8EF;
+			remoteInfo = LikeButtonAnnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1D3A4432111B39300F1D8EF /* LikeButtonAnnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikeButtonAnnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D3A4462111B39300F1D8EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1D3A4482111B39300F1D8EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1D3A44B2111B39300F1D8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1D3A44D2111B39300F1D8EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1D3A4502111B39300F1D8EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1D3A4522111B39300F1D8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D3A4572111B39300F1D8EF /* LikeButtonAnnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeButtonAnnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D3A45B2111B39300F1D8EF /* LikeButtonAnnimationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonAnnimationTests.swift; sourceTree = "<group>"; };
+		B1D3A45D2111B39300F1D8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D3A4622111B39300F1D8EF /* LikeButtonAnnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeButtonAnnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1D3A4662111B39300F1D8EF /* LikeButtonAnnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonAnnimationUITests.swift; sourceTree = "<group>"; };
+		B1D3A4682111B39300F1D8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1D3A4402111B39300F1D8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D3A4542111B39300F1D8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D3A45F2111B39300F1D8EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1D3A43A2111B39300F1D8EF = {
+			isa = PBXGroup;
+			children = (
+				B1D3A4452111B39300F1D8EF /* LikeButtonAnnimation */,
+				B1D3A45A2111B39300F1D8EF /* LikeButtonAnnimationTests */,
+				B1D3A4652111B39300F1D8EF /* LikeButtonAnnimationUITests */,
+				B1D3A4442111B39300F1D8EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1D3A4442111B39300F1D8EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1D3A4432111B39300F1D8EF /* LikeButtonAnnimation.app */,
+				B1D3A4572111B39300F1D8EF /* LikeButtonAnnimationTests.xctest */,
+				B1D3A4622111B39300F1D8EF /* LikeButtonAnnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1D3A4452111B39300F1D8EF /* LikeButtonAnnimation */ = {
+			isa = PBXGroup;
+			children = (
+				B1D3A4462111B39300F1D8EF /* AppDelegate.swift */,
+				B1D3A4482111B39300F1D8EF /* ViewController.swift */,
+				B1D3A44A2111B39300F1D8EF /* Main.storyboard */,
+				B1D3A44D2111B39300F1D8EF /* Assets.xcassets */,
+				B1D3A44F2111B39300F1D8EF /* LaunchScreen.storyboard */,
+				B1D3A4522111B39300F1D8EF /* Info.plist */,
+			);
+			path = LikeButtonAnnimation;
+			sourceTree = "<group>";
+		};
+		B1D3A45A2111B39300F1D8EF /* LikeButtonAnnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D3A45B2111B39300F1D8EF /* LikeButtonAnnimationTests.swift */,
+				B1D3A45D2111B39300F1D8EF /* Info.plist */,
+			);
+			path = LikeButtonAnnimationTests;
+			sourceTree = "<group>";
+		};
+		B1D3A4652111B39300F1D8EF /* LikeButtonAnnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1D3A4662111B39300F1D8EF /* LikeButtonAnnimationUITests.swift */,
+				B1D3A4682111B39300F1D8EF /* Info.plist */,
+			);
+			path = LikeButtonAnnimationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1D3A4422111B39300F1D8EF /* LikeButtonAnnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D3A46B2111B39300F1D8EF /* Build configuration list for PBXNativeTarget "LikeButtonAnnimation" */;
+			buildPhases = (
+				B1D3A43F2111B39300F1D8EF /* Sources */,
+				B1D3A4402111B39300F1D8EF /* Frameworks */,
+				B1D3A4412111B39300F1D8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LikeButtonAnnimation;
+			productName = LikeButtonAnnimation;
+			productReference = B1D3A4432111B39300F1D8EF /* LikeButtonAnnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1D3A4562111B39300F1D8EF /* LikeButtonAnnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D3A46E2111B39300F1D8EF /* Build configuration list for PBXNativeTarget "LikeButtonAnnimationTests" */;
+			buildPhases = (
+				B1D3A4532111B39300F1D8EF /* Sources */,
+				B1D3A4542111B39300F1D8EF /* Frameworks */,
+				B1D3A4552111B39300F1D8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D3A4592111B39300F1D8EF /* PBXTargetDependency */,
+			);
+			name = LikeButtonAnnimationTests;
+			productName = LikeButtonAnnimationTests;
+			productReference = B1D3A4572111B39300F1D8EF /* LikeButtonAnnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B1D3A4612111B39300F1D8EF /* LikeButtonAnnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1D3A4712111B39300F1D8EF /* Build configuration list for PBXNativeTarget "LikeButtonAnnimationUITests" */;
+			buildPhases = (
+				B1D3A45E2111B39300F1D8EF /* Sources */,
+				B1D3A45F2111B39300F1D8EF /* Frameworks */,
+				B1D3A4602111B39300F1D8EF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1D3A4642111B39300F1D8EF /* PBXTargetDependency */,
+			);
+			name = LikeButtonAnnimationUITests;
+			productName = LikeButtonAnnimationUITests;
+			productReference = B1D3A4622111B39300F1D8EF /* LikeButtonAnnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1D3A43B2111B39300F1D8EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Mansi Mahajan";
+				TargetAttributes = {
+					B1D3A4422111B39300F1D8EF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					B1D3A4562111B39300F1D8EF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1D3A4422111B39300F1D8EF;
+					};
+					B1D3A4612111B39300F1D8EF = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B1D3A4422111B39300F1D8EF;
+					};
+				};
+			};
+			buildConfigurationList = B1D3A43E2111B39300F1D8EF /* Build configuration list for PBXProject "LikeButtonAnnimation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1D3A43A2111B39300F1D8EF;
+			productRefGroup = B1D3A4442111B39300F1D8EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1D3A4422111B39300F1D8EF /* LikeButtonAnnimation */,
+				B1D3A4562111B39300F1D8EF /* LikeButtonAnnimationTests */,
+				B1D3A4612111B39300F1D8EF /* LikeButtonAnnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1D3A4412111B39300F1D8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D3A4512111B39300F1D8EF /* LaunchScreen.storyboard in Resources */,
+				B1D3A44E2111B39300F1D8EF /* Assets.xcassets in Resources */,
+				B1D3A44C2111B39300F1D8EF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D3A4552111B39300F1D8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D3A4602111B39300F1D8EF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1D3A43F2111B39300F1D8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D3A4492111B39300F1D8EF /* ViewController.swift in Sources */,
+				B1D3A4472111B39300F1D8EF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D3A4532111B39300F1D8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D3A45C2111B39300F1D8EF /* LikeButtonAnnimationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1D3A45E2111B39300F1D8EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D3A4672111B39300F1D8EF /* LikeButtonAnnimationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1D3A4592111B39300F1D8EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D3A4422111B39300F1D8EF /* LikeButtonAnnimation */;
+			targetProxy = B1D3A4582111B39300F1D8EF /* PBXContainerItemProxy */;
+		};
+		B1D3A4642111B39300F1D8EF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1D3A4422111B39300F1D8EF /* LikeButtonAnnimation */;
+			targetProxy = B1D3A4632111B39300F1D8EF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1D3A44A2111B39300F1D8EF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D3A44B2111B39300F1D8EF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1D3A44F2111B39300F1D8EF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1D3A4502111B39300F1D8EF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1D3A4692111B39300F1D8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1D3A46A2111B39300F1D8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1D3A46C2111B39300F1D8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikeButtonAnnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TVE.LikeButtonAnnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1D3A46D2111B39300F1D8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikeButtonAnnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TVE.LikeButtonAnnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B1D3A46F2111B39300F1D8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikeButtonAnnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TVE.LikeButtonAnnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikeButtonAnnimation.app/LikeButtonAnnimation";
+			};
+			name = Debug;
+		};
+		B1D3A4702111B39300F1D8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikeButtonAnnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TVE.LikeButtonAnnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LikeButtonAnnimation.app/LikeButtonAnnimation";
+			};
+			name = Release;
+		};
+		B1D3A4722111B39300F1D8EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikeButtonAnnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TVE.LikeButtonAnnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LikeButtonAnnimation;
+			};
+			name = Debug;
+		};
+		B1D3A4732111B39300F1D8EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LikeButtonAnnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TVE.LikeButtonAnnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LikeButtonAnnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1D3A43E2111B39300F1D8EF /* Build configuration list for PBXProject "LikeButtonAnnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D3A4692111B39300F1D8EF /* Debug */,
+				B1D3A46A2111B39300F1D8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D3A46B2111B39300F1D8EF /* Build configuration list for PBXNativeTarget "LikeButtonAnnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D3A46C2111B39300F1D8EF /* Debug */,
+				B1D3A46D2111B39300F1D8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D3A46E2111B39300F1D8EF /* Build configuration list for PBXNativeTarget "LikeButtonAnnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D3A46F2111B39300F1D8EF /* Debug */,
+				B1D3A4702111B39300F1D8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1D3A4712111B39300F1D8EF /* Build configuration list for PBXNativeTarget "LikeButtonAnnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1D3A4722111B39300F1D8EF /* Debug */,
+				B1D3A4732111B39300F1D8EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1D3A43B2111B39300F1D8EF /* Project object */;
+}
