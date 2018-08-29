@@ -14,6 +14,9 @@
 		B1D3A4512111B39300F1D8EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1D3A44F2111B39300F1D8EF /* LaunchScreen.storyboard */; };
 		B1D3A45C2111B39300F1D8EF /* LikeButtonAnnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D3A45B2111B39300F1D8EF /* LikeButtonAnnimationTests.swift */; };
 		B1D3A4672111B39300F1D8EF /* LikeButtonAnnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D3A4662111B39300F1D8EF /* LikeButtonAnnimationUITests.swift */; };
+		B1D3A4752111B41F00F1D8EF /* SparkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D3A4742111B41F00F1D8EF /* SparkButton.swift */; };
+		B1D3A4772111B42E00F1D8EF /* SparkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D3A4762111B42E00F1D8EF /* SparkView.swift */; };
+		B1D3A4792111B4AF00F1D8EF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D3A4782111B4AF00F1D8EF /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		B1D3A4622111B39300F1D8EF /* LikeButtonAnnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LikeButtonAnnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D3A4662111B39300F1D8EF /* LikeButtonAnnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeButtonAnnimationUITests.swift; sourceTree = "<group>"; };
 		B1D3A4682111B39300F1D8EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1D3A4742111B41F00F1D8EF /* SparkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkButton.swift; sourceTree = "<group>"; };
+		B1D3A4762111B42E00F1D8EF /* SparkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkView.swift; sourceTree = "<group>"; };
+		B1D3A4782111B4AF00F1D8EF /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				B1D3A44D2111B39300F1D8EF /* Assets.xcassets */,
 				B1D3A44F2111B39300F1D8EF /* LaunchScreen.storyboard */,
 				B1D3A4522111B39300F1D8EF /* Info.plist */,
+				B1D3A4742111B41F00F1D8EF /* SparkButton.swift */,
+				B1D3A4762111B42E00F1D8EF /* SparkView.swift */,
+				B1D3A4782111B4AF00F1D8EF /* TableViewCell.swift */,
 			);
 			path = LikeButtonAnnimation;
 			sourceTree = "<group>";
@@ -259,7 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1D3A4792111B4AF00F1D8EF /* TableViewCell.swift in Sources */,
+				B1D3A4752111B41F00F1D8EF /* SparkButton.swift in Sources */,
 				B1D3A4492111B39300F1D8EF /* ViewController.swift in Sources */,
+				B1D3A4772111B42E00F1D8EF /* SparkView.swift in Sources */,
 				B1D3A4472111B39300F1D8EF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
